@@ -1,0 +1,26 @@
+table,th{
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: aquamarine;
+}
+th,td {
+    padding: 20px 30px;
+    text-align: center;
+    background-color: cadetblue;
+}
+/* table {
+    width: 100%;
+} */
+/* }
+.ser {
+    width: 25%;
+}
+.full-name {
+    width: 25%;
+}
+.subj {
+    width: 25%;
+}
+.page {
+    width: 25%;
+} */
