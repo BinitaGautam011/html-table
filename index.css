@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    margin: 20px 0px;
+    padding: 50px 70px;
+    background: url(../assets/html_table.jpg) center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.container {
+     width: 83vw;
+     height: 90vh;
+     background: #fff5;
+      backdrop-filter: blur(7px);
+      box-shadow: 0 .4rem .8rem #0005;
+      border-radius: 0.8rem;
+      overflow: hidden;
+}
+
+.header {
+     width: 100%;
+     height: 10%;
+     border-color: #fff4;
+     padding: .8rem 1rem;
+      background: rgba(255, 255, 255, 0.518);
+   }
+.header i {
+    background-color: green; 
+    color:white; 
+    font-size:24px;
+    float: right;
+    border-radius: 50%;
+}
+
+.c {
+    clear: both;
+}
+
+table {
+    width: 100%;
+     border-collapse: collapse;
+      border-radius: 2 rem;
+}
+.tdata{
+     margin: 25px 25px;
+    /* padding: 4px 0; */
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    background-color: #fFfb;
+    margin: .8rem auto;
+   
+}
+
+table td img {
+    width: 29px;
+    height: 30px;
+    border-radius: 50%;
+     vertical-align: middle;
+}
+table th,td {
+   
+   text-align: left;
+   padding: 6px;
+   font-size: 20px;
+   justify-content: center;
+}
+table th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+}
+.id {
+    width: 10%;
+}
+.cus {
+    width: 26%;
+}
+.loc {
+    width: 15%;
+}
+.ord {
+    width: 17%;
+}
+.sta{
+    width: 17%;
+}
+.amo {
+    width: 14%;
+}
+table tr:nth-child(even)
+{
+    background-color: #0000000b;   
+} 
+table tr:hover {
+    background-color: #fff6;
+}
+.del {
+    background-color:#90ee90;
+    color: darkgreen;
+    display: inline-block;
+    margin: 20px;
+    padding: 6px 10px;
+    border-radius: 25px;
+    width: 110px;
+    text-align: center;
+}
+
+.can {
+    background-color: #eb9b93;
+    color: red;
+    display: inline-block;
+    margin: 20px;
+    padding: 6px 10px;
+    border-radius: 25px;
+    width: 110px;
+    text-align: center;
+}
+.ship {
+    background-color: #87cefa;
+    color: darkgreen;
+    display: inline-block;
+    margin: 20px;
+    padding: 6px 10px;
+    border-radius: 25px;
+    width: 110px;
+    text-align: center;
+}
+.pend {
+    background-color:#ffd966;
+    color: darkgreen;
+    display: inline-block;
+    margin: 20px;
+    padding: 6px 10px;
+    border-radius: 25px;
+    width: 110px;
+    text-align: center;
+}
+
+tr .head {
+      width: 110px;
+}
+
